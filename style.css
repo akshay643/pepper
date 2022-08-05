@@ -1,0 +1,101 @@
+
+
+/* breadcrums */
+
+
+
+
+
+
+
+
+
+/*  */
+
+a{
+    text-decoration: none;
+}
+
+
+header{
+    margin-left:30px
+}
+
+.arrow {
+    font-size: 0;
+}
+.inner-arrow {
+	height:80px;
+    display: inline-block;
+	background-color:green;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	line-height:80px;
+    vertical-align: middle;
+}
+.arrow:before,
+.arrow:after {
+	content:'';
+    display: inline-block;
+	width:0;
+	height:0;
+	border:40px solid transparent;
+    vertical-align: middle;
+}
+.arrow:before {
+	border-top-color: green;
+	border-bottom-color: green;
+	border-right-color: green;
+}
+.arrow:after {
+	border-left-color: green;
+}
+
+
+/* heading 2 */
+
+.heading2{
+    margin-top:30px;
+    margin-left: 15px;
+}
+
+.heading2 > a{
+    font-size: 18px;
+    padding-left:20px;
+    text-decoration: none;
+    color:grey;
+} 
+
+
+/* mainSection */
+
+
+
+
+
+.left{
+    border:1px solid lightgrey;
+}
+.right{
+    margin-left: 40px;
+    border:1px solid lightgrey;
+
+}
+textarea{
+    border:1px solid lightgrey;
+}
+
+
+/* table */
+table{
+    border:1px solid lightgrey;
+}
+
+
+
+/* right */
+
+.cotactUpdate{
+    border:1px solid lightgrey
+}
