@@ -39,32 +39,31 @@
 <hr>
 
 
-<section>
 
     <div class="row d-flex mx-2 justify-content-around">
 
         <div class="left col-12 col-lg-7">
-            <ul class=" nav flex-nowrap text-nowrap  my-3 overflow-scroll">
+            <ul class=" nav d-flex justify-content-between flex-nowrap text-nowrap  my-3 overflow-scroll">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Log calls</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Tasks</a>
+                  <a class="nav-link" href="#"><small>Tasks</small></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Event</a>
+                  <a class="nav-link" href="#"><small>Event</small></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Make Note</a>
+                  <a class="nav-link disabled"><small>Make Note</small></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Add Attachment</a>
+                  <a class="nav-link disabled"><small>Add Attachment</small></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Activity Set</a>
+                  <a class="nav-link disabled"><small>Activity Set</small></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Custom Field</a>
+                  <a class="nav-link disabled"> <small> Custom Field</small></a>
                 </li>
               </ul>
 
@@ -72,11 +71,11 @@
 
 
 
-              <div class="formsection">
+              <div class="formsection w-100 overflow-hidden">
 
                 <form action="">
     
-                        <h4>New Tasks*</h4>
+                        <h6 class="mt-4">New Tasks*</h6>
     
                         <p></p>
     
@@ -84,7 +83,7 @@
     
                             <div class="col-12 col-lg-6">
 
-                                <label class="w-100 my-3" for="">Task Type
+                                <label class="w-100 my-3" for=""><small>Task Type</small>
                                     <div class="input-group">
                                         <input type="text" class="form-control" aria-label="Text input with dropdown button">
                                         <div class="input-group-append">
@@ -100,7 +99,7 @@
                                     </div>
                                 </label>
 
-                                <label class="w-100 my-3" for="">Assigned to.
+                                <label class="w-100 my-3" for=""><small>Assigned to.</small>
                                     <div class="input-group">
                                         <input type="text" class="form-control" aria-label="Text input with dropdown button">
                                         <div class="input-group-append">
@@ -122,7 +121,7 @@
 
                                     <div class="col-12 col-lg-6">
 
-                                        <label class="w-100 my-3" for="">Start Date
+                                        <label class="w-100 my-3" for=""><small>Start Date</small>
                                             <div class="input-group">
                                                     <div class="input-group date" id="datepicker">
                                                       <input type="text" class="form-control" id="date"/>
@@ -138,7 +137,7 @@
                                     </div>
 
                                     <div class="col-12 col-lg-6">
-                                        <label class="w-100 my-3" for="">End Date 
+                                        <label class="w-100 my-3" for=""><small>End Date </small>
                                             <div class="input-group">
                                                     <div class="input-group date" id="datepicker">
                                                       <input type="text" class="form-control" id="date"/>
@@ -160,7 +159,7 @@
                                
 
 
-                                <label class="w-100 my-3" for="">Remind On
+                                <label class="w-100 my-3" for=""><small>Remind On</small>
                                     <div class="input-group">
                                             <div class="input-group date" id="datepicker">
                                               <input type="text" class="form-control" id="date"/>
@@ -184,7 +183,7 @@
 
 
                             <div class="col-12 col-lg-6">
-                                <label class="w-100 my-3" for="">Task Type
+                                <label class="w-100 my-3" for=""><small>Subject</small>
                                     <div class="input-group">
                                         <input type="text" class="form-control" aria-label="Text input with dropdown button">
                                         <div class="input-group-append">
@@ -200,7 +199,7 @@
                                     </div>
                                 </label>
 
-                                <label class="w-100 my-3" for="">Task Type
+                                <label class="w-100 my-3" for=""><small>Details</small>
                                     <div class="input-group h-100">
                                         <textarea class="w-100" name="" id="" cols="30" rows="9"></textarea>
                                         
@@ -234,7 +233,7 @@
 
             <hr>
 
-            <table class="table table-striped"> Task List
+            <table class="table table-striped small "> Task List
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -297,7 +296,7 @@
 
         
 
-        <div class="right col-12 col-lg-4 ">
+        <div class="right col-12 col-lg-4 mx-0 ">
                 <div class="input-group my-3">
                         <div class="input-group date" id="datepicker">
                           <input type="text" class="form-control" id="date" placeholder="Filter by date"/>
@@ -312,9 +311,9 @@
                 <hr>
 
 
-                <div class="cotactUpdate d-flex justify-content-around p-4 my-4 align-items-center">
+                <div class="cotactUpdate d-flex p-4 my-4 align-items-center">
 
-                    <div>
+                    <div class="mx-5">
                         <img src="/images/call.png" alt="">
                      </div>
                     <div>
@@ -325,9 +324,9 @@
                       
 
                 </div>
-                <div class="cotactUpdate d-flex justify-content-around p-4 my-4 align-items-center">
+                <div class="cotactUpdate d-flex p-4 my-4 align-items-center">
 
-                    <div>
+                    <div class="mx-5">
                         <img src="/images/call.png" alt="">
                      </div>
                     <div>
@@ -338,9 +337,9 @@
                       
 
                 </div>
-                <div class="cotactUpdate d-flex justify-content-around p-4 my-4 align-items-center">
+                <div class="cotactUpdate d-flex p-4 my-4 align-items-center">
 
-                    <div>
+                    <div class="mx-5">
                         <img src="/images/call.png" alt="">
                      </div>
                     <div>
@@ -352,9 +351,9 @@
 
                 </div>
 
-                <div class="cotactUpdate d-flex justify-content-around p-4 my-4 align-items-center">
+                <div class="cotactUpdate d-flex p-4 my-4 align-items-center">
 
-                    <div>
+                    <div class="mx-5">
                         <img src="/images/call.png" alt="">
                      </div>
                     <div>
@@ -377,7 +376,6 @@
 
 
 
-</section>
 
 
 

@@ -12,9 +12,6 @@
 
 /*  */
 
-a{
-    text-decoration: none;
-}
 
 
 header{
@@ -98,4 +95,8 @@ table{
 
 .cotactUpdate{
     border:1px solid lightgrey
+}
+
+img{
+    width:40px;
 }
