@@ -54,16 +54,16 @@
                   <a class="nav-link" href="#"><small>Event</small></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled"><small>Make Note</small></a>
+                  <a class="nav-link "><small>Make Note</small></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled"><small>Add Attachment</small></a>
+                  <a class="nav-link "><small>Add Attachment</small></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled"><small>Activity Set</small></a>
+                  <a class="nav-link "><small>Activity Set</small></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled"> <small> Custom Field</small></a>
+                  <a class="nav-link "> <small> Custom Field</small></a>
                 </li>
               </ul>
 
@@ -84,35 +84,31 @@
                             <div class="col-12 col-lg-6">
 
                                 <label class="w-100 my-3" for=""><small>Task Type</small>
-                                    <div class="input-group">
+                                    <div class="input-group mb-3">
                                         <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                                        <div class="input-group-append">
-                                          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                          <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                            <div role="separator" class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Separated link</a>
-                                          </div>
-                                        </div>
-                                    </div>
+                                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                        </ul>
+                                      </div>
                                 </label>
 
-                                <label class="w-100 my-3" for=""><small>Assigned to.</small>
-                                    <div class="input-group">
+                                <label class="w-100 " for=""><small>Assigned to.</small>
+                                    <div class="input-group mb-3">
                                         <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                                        <div class="input-group-append">
-                                          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                          <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                            <div role="separator" class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Separated link</a>
-                                          </div>
-                                        </div>
-                                    </div>
+                                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                        </ul>
+                                      </div>
                                 </label>
 
 
@@ -121,15 +117,15 @@
 
                                     <div class="col-12 col-lg-6">
 
-                                        <label class="w-100 my-3" for=""><small>Start Date</small>
+                                        <label class="w-100 " for=""><small>Start Date</small>
                                             <div class="input-group">
                                                     <div class="input-group date" id="datepicker">
-                                                      <input type="text" class="form-control" id="date"/>
-                                                      <span class="input-group-append">
+                                                      <input type="date" class="form-control" id="date"/>
+                                                      <!-- <span class="input-group-append">
                                                         <span class="input-group-text bg-light d-block">
                                                           <i class="fa fa-calendar"></i>
                                                         </span>
-                                                      </span>
+                                                      </span> -->
                                                     </div>
                                                   </div>
                                             
@@ -140,12 +136,12 @@
                                         <label class="w-100 my-3" for=""><small>End Date </small>
                                             <div class="input-group">
                                                     <div class="input-group date" id="datepicker">
-                                                      <input type="text" class="form-control" id="date"/>
-                                                      <span class="input-group-append">
+                                                      <input type="date" class="form-control" id="date"/>
+                                                      <!-- <span class="input-group-append">
                                                         <span class="input-group-text bg-light d-block">
                                                           <i class="fa fa-calendar"></i>
                                                         </span>
-                                                      </span>
+                                                      </span> -->
                                                   </div>
                                             </div>
                                         </label>
@@ -162,11 +158,11 @@
                                 <label class="w-100 my-3" for=""><small>Remind On</small>
                                     <div class="input-group">
                                             <div class="input-group date" id="datepicker">
-                                              <input type="text" class="form-control" id="date"/>
+                                              <input type="date" class="form-control" id="date"/>
                                               <span class="input-group-append">
-                                                <span class="input-group-text bg-light d-block">
+                                                <!-- <span class="input-group-text bg-light d-block">
                                                   <i class="fa fa-calendar"></i>
-                                                </span>
+                                                </span> -->
                                               </span>
                                           </div>
                                     </div>
@@ -184,20 +180,7 @@
 
                             <div class="col-12 col-lg-6">
                                 <label class="w-100 my-3" for=""><small>Subject</small>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                                        <div class="input-group-append">
-                                          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                          <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                            <div role="separator" class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Separated link</a>
-                                          </div>
-                                        </div>
-                                    </div>
-                                </label>
+                                    <input type="text" class="form-control" id="date"/>                                </label>
 
                                 <label class="w-100 my-3" for=""><small>Details</small>
                                     <div class="input-group h-100">
@@ -236,7 +219,7 @@
             <table class="table table-striped small  "> Task List
                 <thead>
                   <tr >
-                    <th scope="col " class="d-none">#</th>
+                    <th scope="col " class="d-none d-lg-block">#</th>
                     <th scope="col">Subject</th>
                     <th scope="col">Type</th>
                     <th scope="col">Assigned to</th>
