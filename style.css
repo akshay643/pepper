@@ -4,11 +4,170 @@
 
 
 
+section{
+    padding:20px;
+    border:1px solid grey;
+    margin: 20px 40px;
 
+}
 
+.main{
+    display:flex;
+    margin-top:50px;
+    justify-content:space-between;
+    position: relative;
+    margin:20px 30px;
+  }
+  
 
-
-
+  .item1{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    background: white;
+    width:190px;
+    border:1px solid lightgrey;
+    position: relative;
+    padding:15px;
+    height:60px;
+  
+  }
+  
+  
+  
+  .item1:after {
+      content: "";  
+      border-top: 0px solid red;
+      border-bottom: 0px solid red;
+      border-left: 0px solid blue;
+      position: absolute; 
+        right: -30px; 
+        top: 0;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 30px solid #3498db;
+            
+  }
+  
+  .item{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    background: #3498db;
+    width:190px;
+    position: relative;
+    padding:10px;
+    height:60px;
+  
+  }
+  
+  .item:before {
+      content: "";  
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+      border-left: 30px solid white;
+      position: absolute; left: 0; top: 0;
+  }
+  
+  
+  
+  .item:after {
+      content: "";  
+      border-top: 30px solid red;
+      border-bottom: 30px solid red;
+      border-left: 30px solid blue;
+      position: absolute; 
+    right: -30px; 
+    top: 0;
+    border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #3498db;
+    
+  }
+  
+  
+  
+  .item5{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+      background: #3498db;
+    width:190px;
+        position: relative;
+      padding:10px;
+    height:60px;
+  
+  }
+  .item5:before {
+      content: "";  
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+      border-left: 30px solid white;
+      position: absolute; left: 0; top: 0;
+  }
+  
+  
+  .round {
+    position: relative;
+  }
+  
+  .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+  }
+  
+  .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 10px;
+  }
+  
+  .round input[type="checkbox"] {
+    visibility: hidden;
+  }
+  
+  .round input[type="checkbox"]:checked + label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+  }
+  
+  .round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* general styling */
+  
+  
+  
+  
 
 /*  */
 
@@ -70,7 +229,6 @@ header{
 
 
 
-
 .left{
     border:1px solid lightgrey;
 }
@@ -81,6 +239,10 @@ header{
 }
 textarea{
     border:1px solid lightgrey;
+}
+
+.input{
+    background-image: url("/Users/triptiarora/pepperCloud/images/call.png");
 }
 
 
