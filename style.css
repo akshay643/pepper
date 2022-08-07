@@ -72,10 +72,19 @@ section{
   }
 
   .active{
-        background-color:#FDF0D4;
-        
+        background-color:#FDF0D4;      
         border-bottom:2px solid #F3B229;
         color:#6A4800;
+    
+  }
+
+  .breadcrumb li a{
+    text-decoration: none;
+    color:#515159
+  }
+
+  .smallActive{
+    color: #FA741F;
     
   }
 
