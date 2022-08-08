@@ -128,7 +128,9 @@ small{
 .right{
     margin-left: 40px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    background-color: white;;
+    background-color: white;
+    position: relative;
+    z-index:-1
 }
 textarea{
     border:1px solid #D1DBEB;
@@ -161,9 +163,11 @@ table{
 /* right */
 
 .cotactUpdate{
-    border:1px solid #D1DBEB
+    border:1px solid #D1DBEB;
+    
 }
 
 img{
     width:40px;
 }
+
